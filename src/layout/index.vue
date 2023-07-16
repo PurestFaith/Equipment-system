@@ -9,7 +9,7 @@
       <!-- 侧边栏部分 -->
       <sidebar class="sidebar-container" />
       <div class="main-container">
-        <div :class="{ 'fixed-header': fixedHeader }">
+        <div class="fixed-header">
           <!-- 顶部导航部分 -->
           <navbar />
         </div>
@@ -88,7 +88,7 @@ export default {
 
 .fixed-header {
   position: fixed;
-  top: 0;
+  top: 60px;
   right: 0;
   z-index: 9;
   width: calc(100% - #{$sideBarWidth});
@@ -104,13 +104,14 @@ export default {
 }
 
 ::v-deep.sidebar-container .el-scrollbar {
-  height: 100vh !important;
+  height: calc(100vh - 60px) !important;
 }
 
 ::v-deep.sidebar-container {
   position: absolute;
   top: 60px !important;
   left: 0;
+
 }
 
 .boxbox {
@@ -118,6 +119,7 @@ export default {
 
   .topnav {
     // position: absolute;
+
     position: sticky;
     top: 0;
     left: 0;

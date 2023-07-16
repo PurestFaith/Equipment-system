@@ -58,7 +58,7 @@ export const constantRoutes = [
     path: "/equipment",
     component: Layout,
     redirect: "/equipmentSubscription",
-    meta: { title: "系统管理", icon: "shopping" },
+    meta: { title: "", icon: "shopping" },
     children: [
       {
         path: "/Subscription",

@@ -56,7 +56,7 @@ export default {
 }
 
 .fixed-header+.app-main {
-  padding-top: 250px;
+  padding-top: 50px;
 }
 </style>
 

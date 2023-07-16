@@ -33,7 +33,7 @@ export default {
 .init {
   /* calc用来进行数学计算，例如当我们设置内容高度时需要减去导航栏的高度，
      则可以使用calc(100vh - 导航栏高度)  即可刚好占满高度*/
-  height: calc(100vh - 60px);
+  height: calc(100vh - 110px);
   padding: 12px 15px;
   background-color: #fff;
 }
@@ -41,7 +41,7 @@ export default {
 .init_gray {
   /* calc用来进行数学计算，例如当我们设置内容高度时需要减去导航栏的高度，
      则可以使用calc(100vh - 导航栏高度)  即可刚好占满高度*/
-  height: calc(100vh - 60px);
+  height: calc(100vh - 110px);
   padding: 12px 15px;
   background-color: #f2f3f5;
 }
