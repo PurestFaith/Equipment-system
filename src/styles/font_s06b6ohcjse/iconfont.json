@@ -1,0 +1,114 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "201646",
+      "name": "3.1 设置",
+      "font_class": "31shezhi",
+      "unicode": "f021b",
+      "unicode_decimal": 983579
+    },
+    {
+      "icon_id": "587162",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e830",
+      "unicode_decimal": 59440
+    },
+    {
+      "icon_id": "936752",
+      "name": "销售报表",
+      "font_class": "xiaoshoubaobiao",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "1409617",
+      "name": "20用户名",
+      "font_class": "yonghuming",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "4437593",
+      "name": "登录用户名",
+      "font_class": "dengluyonghuming",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "6275393",
+      "name": "房子",
+      "font_class": "icon-test",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "7542445",
+      "name": "24gl-chartBarUpward",
+      "font_class": "24gl-chartBarUpward",
+      "unicode": "e846",
+      "unicode_decimal": 59462
+    },
+    {
+      "icon_id": "7991689",
+      "name": "小房子",
+      "font_class": "xiaofangzi",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "11459724",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "11494997",
+      "name": "管理",
+      "font_class": "guanli",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "11749498",
+      "name": "房子",
+      "font_class": "fangzizhuye",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "12290490",
+      "name": "解锁1",
+      "font_class": "jiesuo",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "15326669",
+      "name": "人员",
+      "font_class": "renyuan",
+      "unicode": "e799",
+      "unicode_decimal": 59289
+    },
+    {
+      "icon_id": "15779772",
+      "name": "勋章",
+      "font_class": "xunzhang",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "15927953",
+      "name": "heq",
+      "font_class": "hengdengyu",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+::v-deep .el-drawer__wrapper #el-drawer__title {
+  color: #000 !important;
+  font-weight: 700 !important;
+  font-size: 21px !important;
+}
+::v-deep .formClass .demo-form-inline .el-form-item__label {
+  text-align: left !important;
+  padding: 0;
+}
+.dongtai {
+  position: relative;
+  .el-button {
+    position: absolute;
+    top: 0;
+    left: 202px;
+    width: 40px;
+    height: 40px;
+    border: 1px dashed #ccc;
+    display: flex;
+    justify-content: center;
+  }
+}
+.Participant {
+  display: flex;
+  align-items: center;
+  width: 49vw;
+  height: 35px;
+  background-color: #e4e4e4;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  padding-left: 5px;
+  margin-left: -3px;
+  span {
+    font-weight: 700;
+    color: #000;
+  }
+  span:nth-child(2) {
+    margin-left: 45px;
+  }
+}
+.hidenDongtai {
+  position: relative;
+  padding-left: 80px;
+  .el-button {
+    position: absolute;
+    top: 0;
+    left: 202px;
+    width: 40px;
+    height: 40px;
+    border: 1px dashed #ccc;
+    display: flex;
+    justify-content: center;
+  }
+  .removeDomain {
+    position: absolute;
+    top: 0;
+    left: 242px;
+    width: 40px;
+    height: 40px;
+    border: 1px dashed #ccc;
+    display: flex;
+    justify-content: center;
+  }
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #e4e4e4;
+}
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  // padding: 20px 16px;
+}
+
+.steps {
+  width: 100vw;
+  height: 100px;
+  background-color: #efefef;
+  margin-bottom: 12px;
+  padding: 28px 25px;
+}
+// 已完成状态
+::v-deep .el-step__head.is-success {
+  color: rgb(52, 158, 250);
+  border-color: rgb(52, 158, 250);
+}
+::v-deep .el-step__title.is-success {
+  font-weight: bold;
+  color: rgb(52, 158, 250);
+}
+
+::v-deep .el-step {
+  .is-success {
+    .is-text {
+      color: #fff;
+      background-color: dodgerblue !important;
+    }
+  }
+  .el-step__title {
+    text-indent: 6px;
+  }
+}
+// 进行中状态
+::v-deep .el-step__head.is-process {
+  color: dodgerblue;
+  border-color: dodgerblue;
+}
+::v-deep .el-step__title.is-process {
+  font-weight: 700;
+  color: dodgerblue !important;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
